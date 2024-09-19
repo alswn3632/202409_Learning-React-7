@@ -1,0 +1,285 @@
+/* 메인 */
+.boardHome{
+    width: 100%;
+    text-align: center;
+}
+
+/* 목록 */
+.boardList{
+    width: 100%;
+}
+
+.boardList>table{
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.boardList>table>thead>tr{
+    height: 45px;
+    background-color: #f0f0f0;
+}
+
+.boardList>table .row1{
+    width: 50px;
+}
+.boardList>table .row2{
+    width: 930px;
+}
+.boardList>table .row3{
+    width: 100px;
+}
+.boardList>table .row4{
+    width: 200px;
+}
+
+.boardList>table>tbody tr{
+    height: 40px;
+}
+
+.boardList>table>tbody tr:hover{
+    background-color: #f6f6f6;
+}
+
+.boardList>.btnBox{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: end;
+}
+
+.boardList>.btnBox>.btn1{
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.boardList>.btnBox>.btn1>button{
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+/* 상세 */
+.boardDetail{
+    width: 100%;
+}
+
+.boardDetail>.tableBox{
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.boardDetail>.tableBox>table{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.boardDetail>.tableBox .title{
+    height: 45px;
+    background-color: #f0f0f0;
+}
+
+.boardDetail>.tableBox .date{
+    height: 50px;
+    vertical-align: top;
+    text-align: end;
+}
+
+.boardDetail>.tableBox .date>td{
+    padding: 20px;
+}
+
+.boardDetail>.tableBox .content{
+    text-align: start;
+}
+
+.boardDetail>.tableBox .content>td{
+    padding: 20px;
+}
+
+.boardDetail>.btnBox{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: end;
+}
+
+.boardDetail>.btnBox>button{
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.boardDetail>.btnBox>.btn1>button{
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+/* 글쓰기 */
+.boardCreate{
+    width: 100%;
+}
+
+.boardCreate>.createBox{
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.boardCreate>.createBox>table{
+    width: 1280px;
+}
+
+.boardCreate>.createBox>table .title{
+    height: 45px;
+    background-color: #f0f0f0;
+}
+
+.boardCreate>.createBox>table .title>.txt1{
+    width: 900px;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.boardCreate>.createBox>table .title>.txt1>input{
+    width: 800px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.boardCreate>.createBox>table .title>.txt2{
+    text-align: start;
+    padding-left: 20px;
+}
+
+.boardCreate>.createBox>table .title>.txt2>input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.boardCreate>.createBox>table .content>.txt3>textarea{
+    width: 100%;
+    height: 420px;
+    border: none;
+    outline: none;
+    resize: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.boardCreate>.btnBox{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: end;
+}
+
+.boardCreate>.btnBox>.btn1{
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.boardCreate>.btnBox>.btn1>button{
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.boardCreate>.btnBox>button{
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+/* 수정 */
+.boardEdit{
+    width: 100%;
+}
+
+.boardEdit>.tableBox{
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.boardEdit>.tableBox>table{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.boardEdit>.tableBox .title{
+    height: 45px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.boardEdit>.tableBox .title>.row1{
+    width: 50px;
+}
+.boardEdit>.tableBox .title>.row2{
+    width: 850px;
+    padding-left: 20px;
+    text-align: start;
+}
+
+.boardEdit>.tableBox .title>.row2>input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.boardEdit>.tableBox .content{
+    text-align: start;
+}
+
+.boardEdit>.tableBox .content>td>textarea{
+    width: 100%;
+    height: 420px;
+    border: none;
+    outline: none;
+    resize: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.boardEdit>.btnBox{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: end;
+}
+
+.boardEdit>.btnBox>button{
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.boardEdit>.btnBox>.btn1>button{
+    width: 50px;
+    height: 30px;
+    margin-left: 5px;
+}
