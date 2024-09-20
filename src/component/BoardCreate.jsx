@@ -43,7 +43,7 @@ const BoardCreate = () => {
                 console.log(res.data); // 'OK'
                 console.log(res.data[0]); // 0 
                 if(res.data === 'OK'){
-                    // 데이터 전송 후 이동
+                    // 데이터 전송 후 이동한다.
                     window.location.href = '/list';
                 }
             }catch(err){
