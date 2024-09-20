@@ -12,6 +12,7 @@ const BoardDetail = () => {
         try{
             const details = await axios.get(`/detail/${id}`);
             // res.data : 데이터가 한개더라도 배열로 들어옴.
+            //
             setBoard(details.data[0]);
         }catch(e){
             console.log(e);
